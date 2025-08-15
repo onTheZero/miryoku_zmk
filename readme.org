@@ -1,3 +1,14 @@
+** To customize:
+Go to "C:\Development Projects\Dactyl\ZMK\miryoku_zmk\miryoku\custom_config.h" to change layer mappings
+Template mappings can be found at "C:\Development Projects\Dactyl\ZMK\miryoku_zmk\miryoku\miryoku_babel\miryoku_layer_alternatives.h"
+
+After changes have been made and pushed to github, go to github and select Actions > Build Inputs > Run Workflow
+Set board to: nice_nano_v2
+Set shield to: corne_left, corne_right
+Set kconfig to: CONFIG_ZMK_POINTING=y
+
+Everything else can be left as is.
+
 # Copyright 2023 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
