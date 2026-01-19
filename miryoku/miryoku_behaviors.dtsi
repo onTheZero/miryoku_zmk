@@ -7,15 +7,23 @@
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
       tapping-term-ms = <U_TAPPING_TERM>;
-      flavor = "tap-preferred";
+      flavor = "balanced";
       bindings = <&kp>, <&kp>;
+      quick-tap-ms = <175>;
+      require-prior-idle-ms = <150>;
+      hold-trigger-key-positions = hold-trigger-key-positions = <10 11 12 13 14 15 16 17 18 19 20 21 28 29 32 33 34 35 36>;
+      hold-trigger-on-release;
     };
     u_lt: u_lt {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
       tapping-term-ms = <U_TAPPING_TERM>;
-      flavor = "tap-preferred";
+      flavor = "balanced";
       bindings = <&mo>, <&kp>;
+      quick-tap-ms = <175>;
+      require-prior-idle-ms = <150>;
+      hold-trigger-key-positions = hold-trigger-key-positions = <10 11 12 13 14 15 16 17 18 19 20 21 28 29 32 33 34 35 36>;
+      hold-trigger-on-release;
     };
   };
 };
