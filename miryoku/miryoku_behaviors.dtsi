@@ -2,6 +2,8 @@
 // https://github.com/manna-harbour/miryoku
 
 #define HOLD_KEYS 10 11 12 13 14 15 16 17 18 19 20 21 28 29 32 33 34 35 36
+#define IDLE_MS 130
+#define QUICK_MS 175
 / {
   behaviors {
     u_mt: u_mt {
@@ -10,8 +12,8 @@
       tapping-term-ms = <U_TAPPING_TERM>;
       flavor = "balanced";
       bindings = <&kp>, <&kp>;
-      quick-tap-ms = <175>;
-      require-prior-idle-ms = <150>;
+      quick-tap-ms = <QUICK_MS>;
+      require-prior-idle-ms = <IDLE_MS>;
       hold-trigger-key-positions = <HOLD_KEYS>;
       hold-trigger-on-release;
     };
@@ -21,8 +23,8 @@
       tapping-term-ms = <U_TAPPING_TERM>;
       flavor = "balanced";
       bindings = <&mo>, <&kp>;
-      quick-tap-ms = <175>;
-      require-prior-idle-ms = <150>;
+      quick-tap-ms = <QUICK_MS>;
+      require-prior-idle-ms = <IDLE_MS>;
       hold-trigger-key-positions = <HOLD_KEYS>;
       hold-trigger-on-release;
     };
