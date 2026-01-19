@@ -14,7 +14,7 @@
       bindings = <&kp>, <&kp>;
       quick-tap-ms = <QUICK_MS>;
       require-prior-idle-ms = <IDLE_MS>;
-      hold-trigger-key-positions = <HOLD_KEYS>;
+      //hold-trigger-key-positions = <HOLD_KEYS>;
       hold-trigger-on-release;
     };
     u_lt: u_lt {
@@ -25,7 +25,7 @@
       bindings = <&mo>, <&kp>;
       quick-tap-ms = <QUICK_MS>;
       require-prior-idle-ms = <IDLE_MS>;
-      hold-trigger-key-positions = <HOLD_KEYS>;
+      //hold-trigger-key-positions = <HOLD_KEYS>;
       hold-trigger-on-release;
     };
   };
