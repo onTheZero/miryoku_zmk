@@ -1,7 +1,7 @@
 // Copyright 2022 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-#define HOLD_KEYS K10 K11 K12 K13 K14 K15 K16 K17 K18 K19 K20 K21 K28 K29 K32 K33 K34 K35 K36
+//#define HOLD_KEYS K10 K11 K12 K13 K14 K15 K16 K17 K18 K19 K20 K21 K28 K29 K32 K33 K34 K35 K36
 / {
   behaviors {
     u_mt: u_mt {
@@ -12,8 +12,8 @@
       bindings = <&kp>, <&kp>;
       quick-tap-ms = <175>;
       require-prior-idle-ms = <150>;
-      hold-trigger-key-positions = <HOLD_KEYS>;
-      hold-trigger-on-release;
+      //hold-trigger-key-positions = <HOLD_KEYS>;
+      //hold-trigger-on-release;
     };
     u_lt: u_lt {
       compatible = "zmk,behavior-hold-tap";
@@ -23,8 +23,8 @@
       bindings = <&mo>, <&kp>;
       quick-tap-ms = <175>;
       require-prior-idle-ms = <150>;
-      hold-trigger-key-positions = <HOLD_KEYS>;
-      hold-trigger-on-release;
+      //hold-trigger-key-positions = <HOLD_KEYS>;
+      //hold-trigger-on-release;
     };
   };
 };
