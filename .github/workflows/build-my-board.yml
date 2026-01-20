@@ -1,0 +1,10 @@
+name: 'Build My Miryoku'
+on: push
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano"]'
+      shield: '["corne_left", "corne_right"]'
+      kconfig: '["CONFIG_ZMK_POINTING=y\nCONFIG_BT_CTLR_TX_PWR_PLUS_8=y"]'
