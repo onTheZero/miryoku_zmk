@@ -19,6 +19,7 @@
       hold-trigger-key-positions = <KEYS_L>;
       hold-trigger-on-release;
     };
+
     l_mt: l_mt {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
@@ -30,6 +31,7 @@
       hold-trigger-key-positions = <KEYS_R>;
       hold-trigger-on-release;
     };
+    
     u_lt: u_lt {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
