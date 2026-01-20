@@ -3,5 +3,6 @@
 
 #pragma once
 
-#define U_MT(MOD, TAP) &u_mt MOD TAP
+#define R_MT(MOD, TAP) &r_mt MOD TAP
+#define L_MT(MOD, TAP) &l_mt MOD TAP
 #define U_LT(LAYER, TAP) &u_lt LAYER TAP

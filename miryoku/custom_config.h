@@ -3,8 +3,8 @@
 
 #define MIRYOKU_LAYER_BASE                                                                                                                           \
 	&kp Q, &kp W, &kp E, &kp R, &kp T, &kp Y, &kp U, &kp I, &kp O, &kp P,                                                                            \
-		U_MT(LGUI, A), U_MT(LALT, S), U_MT(LCTRL, D), U_MT(LSHFT, F), &kp G, &kp H, U_MT(LSHFT, J), U_MT(LCTRL, K), U_MT(LALT, L), U_MT(LGUI, SEMI), \
-		U_LT(U_BUTTON, Z), U_MT(RALT, X), &kp C, &kp V, &kp B, &kp N, &kp M, &kp COMMA, U_MT(RALT, DOT), U_LT(U_BUTTON, SLASH),                      \
+		L_MT(LGUI, A), L_MT(LALT, S), L_MT(LCTRL, D), L_MT(LSHFT, F), &kp G, &kp H, R_MT(LSHFT, J), R_MT(LCTRL, K), R_MT(LALT, L), R_MT(LGUI, SEMI), \
+		U_LT(U_BUTTON, Z), &kp X, &kp C, &kp V, &kp B, &kp N, &kp M, &kp COMMA, &kp DOT, U_LT(U_BUTTON, SLASH),                      \
 		U_NP, U_NP, U_LT(U_MOUSE, TAB), U_LT(U_NAV, SPACE), U_LT(U_MEDIA, ESC), U_LT(U_FUN, DEL), U_LT(U_NUM, RET), U_LT(U_SYM, BSPC), U_NP, U_NP
 
 #define MIRYOKU_LAYER_NAV                                                                                    \
