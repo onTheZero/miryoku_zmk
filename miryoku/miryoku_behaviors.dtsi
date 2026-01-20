@@ -34,10 +34,6 @@
       tapping-term-ms = <TAP_MS>;
       flavor = "balanced";
       bindings = <&kp>, <&kp>;
-      quick-tap-ms = <QUICK_MS>;
-      require-prior-idle-ms = <IDLE_MS>;
-      hold-trigger-key-positions = <KEYS_R>;
-      hold-trigger-on-release;
     };
 
     u_lt: u_lt {
