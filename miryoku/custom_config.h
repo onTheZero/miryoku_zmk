@@ -1,6 +1,8 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+CONFIG_BT_CTLR_TX_PWR_PLUS_8 = y
+
 #define MIRYOKU_LAYER_BASE                                                                                                                           \
 	&kp Q, &kp W, &kp E, &kp R, &kp T, &kp Y, &kp U, &kp I, &kp O, &kp P,                                                                            \
 		L_MT(LGUI, A), L_MT(LALT, S), L_MT(LCTRL, D), L_MT(LSHFT, F), &kp G, &kp H, R_MT(LSHFT, J), R_MT(LCTRL, K), R_MT(LALT, L), R_MT(LGUI, SEMI), \
