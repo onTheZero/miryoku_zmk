@@ -1,9 +1,10 @@
 // Copyright 2022 Manna Harbour
 // https://github.com/manna-harbour/miryoku
+#include "../miryoku/mapping/42/corne.h"
 
-#define KEYS_L 10 11 12 13 14 20 21 32 33 34 
-#define KEYS_R 15 16 17 18 19 28 29 35 36 37
-#define IDLE_MS 75
+#define KEYS_L K10 K11 K12 K13 K14 K20 K21 K32 k33 K34 
+#define KEYS_R K15 K16 K17 K18 K19 K28 K29 K35 K36 K37
+#define IDLE_MS 150
 #define QUICK_MS 175
 #define TAP_MS 280
 / {
