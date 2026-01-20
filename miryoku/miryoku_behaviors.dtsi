@@ -31,10 +31,15 @@
     u_mt: u_mt {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
-      tapping-term-ms = <U_TAPPING_TERM>;
-      flavor = "tap-preferred";
+      tapping-term-ms = <TAP_MS>;
+      flavor = "balanced";
       bindings = <&kp>, <&kp>;
+      quick-tap-ms = <QUICK_MS>;
+      require-prior-idle-ms = <IDLE_MS>;
+      hold-trigger-key-positions = <KEYS_R>;
+      hold-trigger-on-release;
     };
+
     u_lt: u_lt {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
