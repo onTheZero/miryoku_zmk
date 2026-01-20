@@ -3,9 +3,9 @@
 
 #define KEYS_L 10 11 12 13 14 20 21 32 33 34 
 #define KEYS_R 15 16 17 18 19 28 29 35 36 37
-#define IDLE_MS 125
+#define IDLE_MS 160
 #define QUICK_MS 175
-#define TAP_MS 250
+#define TAP_MS 280
 / {
   behaviors {
     r_mt: r_mt {
@@ -31,7 +31,7 @@
       hold-trigger-key-positions = <KEYS_R>;
       hold-trigger-on-release;
     };
-    
+
     u_lt: u_lt {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
