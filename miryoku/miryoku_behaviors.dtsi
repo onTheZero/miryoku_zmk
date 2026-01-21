@@ -23,7 +23,7 @@
       tapping-term-ms = <U_TAPPING_TERM>;
       quick-tap-ms = <U_QUICK_TERM>;
       require-prior-idle-ms = <U_IDLE_TERM>;
-      hold-trigger-key-positions = <MIRYOKU_HML_HOLD_TRIGGER_POSITIONS>;
+      hold-trigger-key-positions = <MIRYOKU_HMR_HOLD_TRIGGER_POSITIONS>;
       hold-trigger-on-release;
       bindings = <&kp>, <&kp>;
     };
@@ -34,7 +34,7 @@
       tapping-term-ms = <U_TAPPING_TERM>;
       quick-tap-ms = <U_QUICK_TERM>;
       require-prior-idle-ms = <U_IDLE_TERM>;
-      hold-trigger-key-positions = <MIRYOKU_HMR_HOLD_TRIGGER_POSITIONS>;
+      hold-trigger-key-positions = <MIRYOKU_HML_HOLD_TRIGGER_POSITIONS>;
       hold-trigger-on-release;
       bindings = <&kp>, <&kp>;
     };
