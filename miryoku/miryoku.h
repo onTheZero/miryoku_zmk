@@ -23,7 +23,8 @@
 #define U_NA &none // present but not available for use
 #define U_NU &none // available but not used
 
-#define U_TAPPING_TERM 280
+#define U_TAPPING_TERM 200
+#define U_HRM_TAP 280
 #define U_IDLE_TERM 100
 #define U_QUICK_TERM 175
 
